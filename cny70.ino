@@ -4,11 +4,11 @@
 #define CNY70 A0
 //------------------------------------------
 // Domoticz
- const char * domoticz_server = "###.###.###.###"; //Domoticz server IP
- int port = 8080; //Domoticz port
- int kWh_idx = 6; //IDX for this virtual sensor, found in Setup -> Devices
- int impulse_count = 0;
- float kWh_value = 0.3*1000; //Domoticz gets Wh as unit so every impulse is 300Wh (line detected 36 times so 36*(1/120)kWh)
+const char * domoticz_server = "###.###.###.###"; //Domoticz server IP
+int port = 8080; //Domoticz port
+int kWh_idx = 6; //IDX for this virtual sensor, found in Setup -> Devices
+int impulse_count = 0;
+float kWh_value = 0.3*1000; //Domoticz gets Wh as unit so every impulse is 300Wh (line detected 36 times so 36*(1/120)kWh)
 //------------------------------------------
 // WIFI
 WiFiClient client;
@@ -64,8 +64,8 @@ void setup()
   Serial.println(WiFi.localIP());
 }
 //------------------------------------------
-void loop() {
-  
+void loop() 
+{
   //Getting CNY70 value
   int CNY70_value = analogRead(CNY70);
   Serial.print("CNY70: ");
