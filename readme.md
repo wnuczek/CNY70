@@ -9,4 +9,4 @@ As I became more interested in home automation I looked at a more reliable solut
 2. CNY70 and 2 LEDs
 3. Cardboard, hot glue and black tape
 
-![Electricity meter](http://pawelwnuk.pl/files/electricity_meter.JPG "Electricity meter")
+![Electricity meter](http://pawelwnuk.pl/files/electricity-meter.JPG "Electricity meter")
