@@ -106,5 +106,5 @@ void loop() {
       impulse_finished = true;
     }
   }
-  delay(50); 
+  delay(50); //Wait 50ms before next measurement
 }
