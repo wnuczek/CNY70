@@ -5,3 +5,8 @@ This project emerged from my [engineering thesis](https://pawelwnuk.pl/files/Paw
 It required measuring electricity usage from a classic analog electromechanical electricity meter. Back then I used USB webcam and adapted image processing software running on Raspberry Pi. 
 As I became more interested in home automation I looked at a more reliable solution to track electricity usage. This is what I came up with.
 
+1. ESP8266
+2. CNY70 and 2 LEDs
+3. Cardboard, hot glue and black tape
+
+![Electricity meter](http://pawelwnuk.pl/files/electricity meter.JPG "Electricity meter")
